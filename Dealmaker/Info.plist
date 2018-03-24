@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Kiona-Regular.ttf</string>
+		<string>BebasNeue.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0457338064CADB062FFD3852 /* Pods_Dealmaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB56BCEEB95EF78E166A146A /* Pods_Dealmaker.framework */; };
 		065DD436206676F200A8D8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD435206676F200A8D8B6 /* AppDelegate.swift */; };
-		065DD438206676F200A8D8B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD437206676F200A8D8B6 /* ViewController.swift */; };
+		065DD438206676F200A8D8B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD437206676F200A8D8B6 /* MainViewController.swift */; };
 		065DD43B206676F200A8D8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065DD439206676F200A8D8B6 /* Main.storyboard */; };
 		065DD43D206676F200A8D8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065DD43C206676F200A8D8B6 /* Assets.xcassets */; };
 		065DD440206676F200A8D8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065DD43E206676F200A8D8B6 /* LaunchScreen.storyboard */; };
 		065DD44B206676F200A8D8B6 /* DealmakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD44A206676F200A8D8B6 /* DealmakerTests.swift */; };
 		065DD456206676F200A8D8B6 /* DealmakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD455206676F200A8D8B6 /* DealmakerUITests.swift */; };
+		065DD4642066774700A8D8B6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD4632066774700A8D8B6 /* Colors.swift */; };
+		065DD4662066775D00A8D8B6 /* UI components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD4652066775D00A8D8B6 /* UI components.swift */; };
+		065DD486206677DC00A8D8B6 /* LogoAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD485206677DC00A8D8B6 /* LogoAnim.swift */; };
+		065DD48B20667B4200A8D8B6 /* Kiona-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065DD48A20667B4200A8D8B6 /* Kiona-Regular.ttf */; };
+		365EC048E47AC97878D24382 /* Pods_DealmakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B978856EAE4D8652E1F0747 /* Pods_DealmakerUITests.framework */; };
+		E204DD7FC607F621D574BEB9 /* Pods_DealmakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66A95E690A2195CE1946A83 /* Pods_DealmakerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B8362C104BACCB04EC64BF /* Pods-DealmakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealmakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests.release.xcconfig"; sourceTree = "<group>"; };
 		065DD432206676F200A8D8B6 /* Dealmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dealmaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		065DD435206676F200A8D8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		065DD437206676F200A8D8B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		065DD437206676F200A8D8B6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		065DD43A206676F200A8D8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		065DD43C206676F200A8D8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		065DD43F206676F200A8D8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,19 @@
 		065DD451206676F200A8D8B6 /* DealmakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealmakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065DD455206676F200A8D8B6 /* DealmakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealmakerUITests.swift; sourceTree = "<group>"; };
 		065DD457206676F200A8D8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065DD4632066774700A8D8B6 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		065DD4652066775D00A8D8B6 /* UI components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI components.swift"; sourceTree = "<group>"; };
+		065DD485206677DC00A8D8B6 /* LogoAnim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoAnim.swift; sourceTree = "<group>"; };
+		065DD48A20667B4200A8D8B6 /* Kiona-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kiona-Regular.ttf"; sourceTree = "<group>"; };
+		06D6A4F720667DCB007BB265 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		651941A3B47AB9F572AFEA1C /* Pods-DealmakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealmakerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B978856EAE4D8652E1F0747 /* Pods_DealmakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealmakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6E75E5547192F995694A90 /* Pods-Dealmaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealmaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker.release.xcconfig"; sourceTree = "<group>"; };
+		B182213AD81C1A18385A4BAB /* Pods-DealmakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealmakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B66A95E690A2195CE1946A83 /* Pods_DealmakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealmakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15C727B5C5F0011FC85626A /* Pods-DealmakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealmakerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB56BCEEB95EF78E166A146A /* Pods_Dealmaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dealmaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C1706114D4DC551B7479CF /* Pods-Dealmaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealmaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0457338064CADB062FFD3852 /* Pods_Dealmaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E204DD7FC607F621D574BEB9 /* Pods_DealmakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365EC048E47AC97878D24382 /* Pods_DealmakerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +105,8 @@
 				065DD449206676F200A8D8B6 /* DealmakerTests */,
 				065DD454206676F200A8D8B6 /* DealmakerUITests */,
 				065DD433206676F200A8D8B6 /* Products */,
+				EF2328562C5B5A0289EDD7B5 /* Pods */,
+				3F292D922DA52F6454AC95BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +124,14 @@
 			isa = PBXGroup;
 			children = (
 				065DD435206676F200A8D8B6 /* AppDelegate.swift */,
-				065DD437206676F200A8D8B6 /* ViewController.swift */,
+				065DD437206676F200A8D8B6 /* MainViewController.swift */,
+				065DD487206677E400A8D8B6 /* UI components */,
 				065DD439206676F200A8D8B6 /* Main.storyboard */,
 				065DD43C206676F200A8D8B6 /* Assets.xcassets */,
 				065DD43E206676F200A8D8B6 /* LaunchScreen.storyboard */,
 				065DD441206676F200A8D8B6 /* Info.plist */,
+				06D6A4F720667DCB007BB265 /* Podfile */,
+				065DD467206677AA00A8D8B6 /* Fonts */,
 			);
 			path = Dealmaker;
 			sourceTree = "<group>";
@@ -125,6 +154,47 @@
 			path = DealmakerUITests;
 			sourceTree = "<group>";
 		};
+		065DD467206677AA00A8D8B6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				065DD48A20667B4200A8D8B6 /* Kiona-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		065DD487206677E400A8D8B6 /* UI components */ = {
+			isa = PBXGroup;
+			children = (
+				065DD485206677DC00A8D8B6 /* LogoAnim.swift */,
+				065DD4632066774700A8D8B6 /* Colors.swift */,
+				065DD4652066775D00A8D8B6 /* UI components.swift */,
+			);
+			path = "UI components";
+			sourceTree = "<group>";
+		};
+		3F292D922DA52F6454AC95BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB56BCEEB95EF78E166A146A /* Pods_Dealmaker.framework */,
+				B66A95E690A2195CE1946A83 /* Pods_DealmakerTests.framework */,
+				6B978856EAE4D8652E1F0747 /* Pods_DealmakerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2328562C5B5A0289EDD7B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1706114D4DC551B7479CF /* Pods-Dealmaker.debug.xcconfig */,
+				AE6E75E5547192F995694A90 /* Pods-Dealmaker.release.xcconfig */,
+				B182213AD81C1A18385A4BAB /* Pods-DealmakerTests.debug.xcconfig */,
+				05B8362C104BACCB04EC64BF /* Pods-DealmakerTests.release.xcconfig */,
+				E15C727B5C5F0011FC85626A /* Pods-DealmakerUITests.debug.xcconfig */,
+				651941A3B47AB9F572AFEA1C /* Pods-DealmakerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065DD45A206676F200A8D8B6 /* Build configuration list for PBXNativeTarget "Dealmaker" */;
 			buildPhases = (
+				0E2F1B238CAB90C3B0D2231E /* [CP] Check Pods Manifest.lock */,
 				065DD42E206676F200A8D8B6 /* Sources */,
 				065DD42F206676F200A8D8B6 /* Frameworks */,
 				065DD430206676F200A8D8B6 /* Resources */,
+				5D1F54BB2FD0BE6D86752D74 /* [CP] Embed Pods Frameworks */,
+				BBE4E02B01AA2C10DBA0AE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065DD45D206676F200A8D8B6 /* Build configuration list for PBXNativeTarget "DealmakerTests" */;
 			buildPhases = (
+				AE6D16ADF0C2E9148C40F268 /* [CP] Check Pods Manifest.lock */,
 				065DD442206676F200A8D8B6 /* Sources */,
 				065DD443206676F200A8D8B6 /* Frameworks */,
 				065DD444206676F200A8D8B6 /* Resources */,
+				3FAE29010E00CA5258A6B5FA /* [CP] Embed Pods Frameworks */,
+				F61FE26C757A882895F825A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 065DD460206676F200A8D8B6 /* Build configuration list for PBXNativeTarget "DealmakerUITests" */;
 			buildPhases = (
+				D9F356658EAB4B53CDD6F5FB /* [CP] Check Pods Manifest.lock */,
 				065DD44D206676F200A8D8B6 /* Sources */,
 				065DD44E206676F200A8D8B6 /* Frameworks */,
 				065DD44F206676F200A8D8B6 /* Resources */,
+				124682137E24B02343EDF6DE /* [CP] Embed Pods Frameworks */,
+				7F16C7C370D4715C79F8BAAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +314,7 @@
 				065DD440206676F200A8D8B6 /* LaunchScreen.storyboard in Resources */,
 				065DD43D206676F200A8D8B6 /* Assets.xcassets in Resources */,
 				065DD43B206676F200A8D8B6 /* Main.storyboard in Resources */,
+				065DD48B20667B4200A8D8B6 /* Kiona-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +334,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E2F1B238CAB90C3B0D2231E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dealmaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		124682137E24B02343EDF6DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FAE29010E00CA5258A6B5FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1F54BB2FD0BE6D86752D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F16C7C370D4715C79F8BAAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6D16ADF0C2E9148C40F268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealmakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE4E02B01AA2C10DBA0AE09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F356658EAB4B53CDD6F5FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealmakerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61FE26C757A882895F825A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		065DD42E206676F200A8D8B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065DD438206676F200A8D8B6 /* ViewController.swift in Sources */,
+				065DD486206677DC00A8D8B6 /* LogoAnim.swift in Sources */,
+				065DD438206676F200A8D8B6 /* MainViewController.swift in Sources */,
+				065DD4642066774700A8D8B6 /* Colors.swift in Sources */,
+				065DD4662066775D00A8D8B6 /* UI components.swift in Sources */,
 				065DD436206676F200A8D8B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +657,11 @@
 		};
 		065DD45B206676F200A8D8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C1706114D4DC551B7479CF /* Pods-Dealmaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8TDKYZ6C;
 				INFOPLIST_FILE = Dealmaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = danielvebman.Dealmaker;
@@ -438,9 +673,11 @@
 		};
 		065DD45C206676F200A8D8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6E75E5547192F995694A90 /* Pods-Dealmaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8TDKYZ6C;
 				INFOPLIST_FILE = Dealmaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = danielvebman.Dealmaker;
@@ -452,6 +689,7 @@
 		};
 		065DD45E206676F200A8D8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B182213AD81C1A18385A4BAB /* Pods-DealmakerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +706,7 @@
 		};
 		065DD45F206676F200A8D8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B8362C104BACCB04EC64BF /* Pods-DealmakerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +723,7 @@
 		};
 		065DD461206676F200A8D8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15C727B5C5F0011FC85626A /* Pods-DealmakerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +739,7 @@
 		};
 		065DD462206676F200A8D8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651941A3B47AB9F572AFEA1C /* Pods-DealmakerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
