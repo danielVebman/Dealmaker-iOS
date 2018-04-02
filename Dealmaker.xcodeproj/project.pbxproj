@@ -42,7 +42,7 @@
 		0679BA922067F95E005BB22C /* CirclesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679BA912067F95E005BB22C /* CirclesBar.swift */; };
 		068F86D420715B030064D1DE /* PartisanshipVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */; };
 		068F86D720715B190064D1DE /* P Fetch data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D620715B190064D1DE /* P Fetch data.swift */; };
-		068F86D920715B1E0064D1DE /* P Parse data TEMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D820715B1E0064D1DE /* P Parse data TEMP.swift */; };
+		068F86D920715B1E0064D1DE /* P Parse data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D820715B1E0064D1DE /* P Parse data.swift */; };
 		068F86DB20715DBB0064D1DE /* P table delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DA20715DBB0064D1DE /* P table delegate.swift */; };
 		068F86DD20715E9D0064D1DE /* PartisanshipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */; };
 		068F86DF207160230064D1DE /* P table datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DE207160230064D1DE /* P table datasource.swift */; };
@@ -114,7 +114,7 @@
 		0679BA912067F95E005BB22C /* CirclesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesBar.swift; sourceTree = "<group>"; };
 		068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipVisualizationView.swift; sourceTree = "<group>"; };
 		068F86D620715B190064D1DE /* P Fetch data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P Fetch data.swift"; sourceTree = "<group>"; };
-		068F86D820715B1E0064D1DE /* P Parse data TEMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P Parse data TEMP.swift"; sourceTree = "<group>"; };
+		068F86D820715B1E0064D1DE /* P Parse data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P Parse data.swift"; sourceTree = "<group>"; };
 		068F86DA20715DBB0064D1DE /* P table delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P table delegate.swift"; sourceTree = "<group>"; };
 		068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipCell.swift; sourceTree = "<group>"; };
 		068F86DE207160230064D1DE /* P table datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P table datasource.swift"; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				068F86D620715B190064D1DE /* P Fetch data.swift */,
-				068F86D820715B1E0064D1DE /* P Parse data TEMP.swift */,
+				068F86D820715B1E0064D1DE /* P Parse data.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -721,7 +721,7 @@
 				06C584272069AC00001EBBCB /* AsyncImageView.swift in Sources */,
 				0611F81620685E7B00C0D19D /* CirclesBarDelegate.swift in Sources */,
 				06BA35BF206C8C8900CCEE6C /* ImageAnnotation.swift in Sources */,
-				068F86D920715B1E0064D1DE /* P Parse data TEMP.swift in Sources */,
+				068F86D920715B1E0064D1DE /* P Parse data.swift in Sources */,
 				062CCC0920673DCB00DE8A18 /* GeographicVisualizationView.swift in Sources */,
 				068F86D420715B030064D1DE /* PartisanshipVisualizationView.swift in Sources */,
 				0611F82020685FF300C0D19D /* CirclesTableDataSource.swift in Sources */,
