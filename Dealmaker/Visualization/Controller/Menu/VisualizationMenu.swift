@@ -42,7 +42,7 @@ extension VisualizationViewController: CirclesMenuBarDelegate, UITableViewDelega
         table.delegate = self
         table.tag = 500 + index
         view.addSubview(table)
-        
+         
         view.backgroundColor = ColorPalette.primary
         geoVisualizationView?.alpha = 0
         wheelVisualizationView?.alpha = 0
