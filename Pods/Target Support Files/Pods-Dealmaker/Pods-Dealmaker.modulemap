@@ -1,0 +1,6 @@
+framework module Pods_Dealmaker {
+  umbrella header "Pods-Dealmaker-umbrella.h"
+
+  export *
+  module * { export * }
+}

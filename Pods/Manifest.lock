@@ -1,0 +1,21 @@
+PODS:
+  - M13Checkbox (3.2.2)
+  - SCLAlertView (0.8)
+  - SwiftSpinner (1.5.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - M13Checkbox
+  - SCLAlertView
+  - SwiftSpinner
+  - Toast-Swift
+
+SPEC CHECKSUMS:
+  M13Checkbox: a8c2491cfbbca10797925fd0b9154a782bf40d89
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 6a3e81811b9e827643fb5bf1f6fef343a4f57fd5
+
+COCOAPODS: 1.4.0

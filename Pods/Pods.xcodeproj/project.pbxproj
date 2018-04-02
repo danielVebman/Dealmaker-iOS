@@ -1,0 +1,1467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0744231B4276CDE27CB12C5C084A347E /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE1DE649098916706E7779FDE7C83D /* M13CheckboxBounceController.swift */; };
+		077DD93C495B563764EB855E06ACD672 /* Pods-DealmakerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 912C212D61BCD3F69A0732B3697A18DB /* Pods-DealmakerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13FC128B4DD17CD90F02593EAAAE9A67 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C317EFAE6B0BE6260F9EB1E64D0B8F /* M13CheckboxStrokeController.swift */; };
+		183F3E45381030F3C43E1398361387D3 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC7D9FC0043BB9FB8DFE264BD9C29C /* M13Checkbox-dummy.m */; };
+		1EB79404C783C6997ADCC1DD5EC40BC2 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD759DE256E4A831740B0AA0D99B8E /* M13CheckboxExpandController.swift */; };
+		2110386154BC3992FB1D69D0DA2DAF0A /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B99E5001F8B3275891F9EB59170C9C /* M13CheckboxGestureRecognizer.swift */; };
+		2E903E65241641AFF0E46CBC57B26015 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353653C6D04C94F6A5D21D14F367759 /* M13CheckboxFadeController.swift */; };
+		36C2E07830EED0478DB98056788FD62A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		37D7BC593760DB1D46CBBADCF237C4FA /* Pods-Dealmaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC96DAFED1DA8BE50119172BC9BD7E /* Pods-Dealmaker-dummy.m */; };
+		42CDB330BDCCD4ED4CE52854435328FA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D39AFD54A39821107B0F1180F594F /* Toast.swift */; };
+		45D35D736A3CB8E48BD5709CB7DB433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		51A5EE69BEC64E3DD1E756E778533BD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		51B5F84D2B11F82A5386973513F79040 /* Pods-Dealmaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B68FDE7EC5A4253579988701669ED669 /* Pods-Dealmaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A45A26C67B2B0CB41E7C5C9F227E6C3 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8327274E69823938AF18DB98349493 /* Toast-Swift-dummy.m */; };
+		5FD3D7404B697F62F74B6E64AAC7788A /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D2529FAD50760858B43F513C44DB9 /* SCLAlertView-dummy.m */; };
+		6853FB4167701B2DF94D7CDFB38B8CAD /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E264C391020C14094CCC1E801DB8EDC9 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73A3753C550F26AEE354F43D7AA98ACE /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED3F671019E1A4C87C08DDEB08F714 /* M13CheckboxSpiralController.swift */; };
+		7A70C35B3A29DBA7AB9EB5A00DD85DB7 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDA893B546AE1B480198EEE1E4220A2 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5AB7A91E820D7EECD12A6EA221D479 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E73B688D4F8508FDDAA0846F0C672 /* M13CheckboxRadioPathGenerator.swift */; };
+		7D94389D13C85695A7E5328202FF9CB0 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E255DD06359B94045240B863FA5461 /* M13CheckboxDotController.swift */; };
+		7FC815D58329BCB48AA8E8199B9D142A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		80DC15A0582068D6EDE31A6178375C89 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F065A3DEEA045EBBE4489BA8DE670AA /* M13CheckboxController.swift */; };
+		8281BFFFC106883AF2FDF568C1755088 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD758E3DFB2C29FF1E300E00FC80FE99 /* SCLExtensions.swift */; };
+		8942922B30F9E19A21D2EB015F832D2F /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EDD38F771C7FE31FFFD251BF93FD4 /* M13CheckboxPathGenerator.swift */; };
+		8C6EB311B0B897CD705D6F53BDDF0EFB /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0C2763950EC093449DAAEC6CF87BE /* M13CheckboxFlatController.swift */; };
+		935C02B87C6734A70C5883F772BE91D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		97713C0235F372715A3AD292C57C8FEC /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1A9F58D32C2811E372AD40F4A7671 /* M13Checkbox+IB.swift */; };
+		996FC5C6DC31D26EDF56F1B747BC3879 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		A5C9DD31EE6071DDD20F7FC9C33B0C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		AB839F535003BA79950BDC9A0B50D923 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5796FB7BF02221C887805D2F1E699 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		B0DB491E9D426008B989012FB2421537 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = DADD499267E0F1A1A1785FB520BF3612 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DE980791D4DBD13DF2F0A44893E255 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A593427E43C33156EC6EDEF37B898 /* M13CheckboxAnimationGenerator.swift */; };
+		B7D8254786CE0AE3BF97982B7FAAD198 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48976CB29C816EBE16302C3454E776A5 /* M13CheckboxCheckPathGenerator.swift */; };
+		BCA2C378752A59FDE7033AEB94FCF56D /* Pods-DealmakerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5411188A1DB4FDA20CF36582F70D16 /* Pods-DealmakerTests-dummy.m */; };
+		BD16AEEABE129B90222011A2C6A91D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		BD78E8DDD27AF7518D2AE2456285730C /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31754A4777CDC395C90F406ABB22EB96 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		C3A4A94AEED91956A7D7E63D629B1E49 /* Pods-DealmakerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6489F76C1F098D6B1C5458A757815AF7 /* Pods-DealmakerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C63DBC1C1A7547F846A70694643B1FE4 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821D319AA1D0FDB6698F23369F46E0E6 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88F144420533BCDEE60E418C316FB8E /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16351E777556695F444E56EBE6B2BAAD /* M13Checkbox.swift */; };
+		C99841D179E7148C570C5963FF41E965 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC61A9924F1C702FB0BE6834C705D04 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F4CCF8347EF03A46469482AF68AF05 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FEBF2579EFC3514400C92295DAC75 /* SCLAlertView.swift */; };
+		D5218FB15C76B99D57BDB9EB6B27D7BA /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52558BA26E797777D025C6FDBF03DB10 /* M13CheckboxFillController.swift */; };
+		DC8EFB498DC2D1D3B7B276AC3F5C740D /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B251BA100F911583C21E65A23B0A26 /* SwiftSpinner.swift */; };
+		E20425AF91CE60ED295B2FF247E25CAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		E2917C44B502EB6B7F4C8E0F7A989085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		E40BF6E6A533278C2A925FB79401533D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		F5A8FA867A303CE13BC2B2A3BCCCEE03 /* Pods-DealmakerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC1054CAC1DAAF72E3915865D897410 /* Pods-DealmakerUITests-dummy.m */; };
+		FAA8F740796AC9BD225ABC811EA05246 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245ECED56241E78CCC5F96113DCEB1EE /* SwiftSpinner-dummy.m */; };
+		FF4E2AB7D604B3D36AF26C8D7EECE416 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53544FE23CD16471EB7A7DFA127050C0 /* DefaultValues.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC63090B4AC3E9E2096FEB0F7B945890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3E357458AF20CEBDD4E15650507202;
+			remoteInfo = SwiftSpinner;
+		};
+		C1AC4680DA713BB618ADE404434F2AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4A80675B64C1C724CED3D217C5C291;
+			remoteInfo = SCLAlertView;
+		};
+		D2300B440EAF42832769FFBCD494A6A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DFDEC2E80F41CB875B820B4CD787016;
+			remoteInfo = "Toast-Swift";
+		};
+		EBB988E91002F22E2B435385BD8C59BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD9FC035D83AD9BA719108E6A9A694F;
+			remoteInfo = M13Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FE220AED65DEA905547C8C9A8226D5 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC61A9924F1C702FB0BE6834C705D04 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		15EF3A06CD0CD50E34A68FFB156E55EA /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		16351E777556695F444E56EBE6B2BAAD /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		175AE7349285AC629BCA4682BDA217D2 /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		1F42831DBBF793CA8F52B0D8D697F23C /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		23AE1C102E3056E8F0C8B31F2B8370E9 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		23BE1DE649098916706E7779FDE7C83D /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		245ECED56241E78CCC5F96113DCEB1EE /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		24C1DEB2966BB39658F3E21990D1FF40 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		26E8DCA63549E954F69F3056018805A4 /* Pods_Dealmaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dealmaker.framework; path = "Pods-Dealmaker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD7AF9D4B1525385B44AFDF561CCA7F /* Pods-DealmakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DealmakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30B251BA100F911583C21E65A23B0A26 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		30EE764127E853C92F8298B5E2C89933 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		31754A4777CDC395C90F406ABB22EB96 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3A2BFC180DB75E84A273CA2469F20C8F /* Pods-DealmakerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DealmakerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3B1960231FCB202E0C5E2011C1147667 /* Pods-Dealmaker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dealmaker-resources.sh"; sourceTree = "<group>"; };
+		3BC0798DA4BE88A9C43E944A0F8DA141 /* Pods-Dealmaker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dealmaker-acknowledgements.plist"; sourceTree = "<group>"; };
+		41082D2D3A13930F4E48575FD1B80810 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48976CB29C816EBE16302C3454E776A5 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		48B99E5001F8B3275891F9EB59170C9C /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		48F720B90A5148E0E9629AF2972C14D7 /* Pods_DealmakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DealmakerTests.framework; path = "Pods-DealmakerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510A593427E43C33156EC6EDEF37B898 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		52558BA26E797777D025C6FDBF03DB10 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		53544FE23CD16471EB7A7DFA127050C0 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		538FB70E7B8324350BF045C54C1560A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E0C2763950EC093449DAAEC6CF87BE /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		55B1A9F58D32C2811E372AD40F4A7671 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		5A5411188A1DB4FDA20CF36582F70D16 /* Pods-DealmakerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DealmakerTests-dummy.m"; sourceTree = "<group>"; };
+		5C191978A993AD92FB277DC010CC2F2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDA893B546AE1B480198EEE1E4220A2 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		5E9FEBF2579EFC3514400C92295DAC75 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		5EAEA1FD1C84907D2DE880A3685CE2A3 /* Pods-DealmakerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DealmakerTests.modulemap"; sourceTree = "<group>"; };
+		5FC1054CAC1DAAF72E3915865D897410 /* Pods-DealmakerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DealmakerUITests-dummy.m"; sourceTree = "<group>"; };
+		6489F76C1F098D6B1C5458A757815AF7 /* Pods-DealmakerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DealmakerTests-umbrella.h"; sourceTree = "<group>"; };
+		6A4D2529FAD50760858B43F513C44DB9 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		70BC96DAFED1DA8BE50119172BC9BD7E /* Pods-Dealmaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dealmaker-dummy.m"; sourceTree = "<group>"; };
+		759D39AFD54A39821107B0F1180F594F /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		768848AE3E40473C20FBBC773B10F663 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EC951A1E67F27A6494141E432BE6CF /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		7849BC8D9CD049A02FAB4D1014C46AAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF4B62353E874FDCBBA0FF86F50BE93 /* Pods-DealmakerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DealmakerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		814D07D96A4027AA86332D5208F01351 /* Pods-DealmakerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DealmakerTests-frameworks.sh"; sourceTree = "<group>"; };
+		817B035E15BAC4C3344CA01C47BBD567 /* Pods-Dealmaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dealmaker.debug.xcconfig"; sourceTree = "<group>"; };
+		821D319AA1D0FDB6698F23369F46E0E6 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		8353653C6D04C94F6A5D21D14F367759 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		86103773BBC0A4C8A50BBFCE37C4593B /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887B872518721C2C426EB024C388E022 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2D6F013D7DD16688ABB4B83800ED7B /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		912C212D61BCD3F69A0732B3697A18DB /* Pods-DealmakerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DealmakerUITests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93EF3803E67768403DD9C949E7F92CAD /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ED3F671019E1A4C87C08DDEB08F714 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		98D5796FB7BF02221C887805D2F1E699 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		9A7E73B688D4F8508FDDAA0846F0C672 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		9DB186CDD246BE682C8F55254BB1BC62 /* Pods-DealmakerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DealmakerTests-resources.sh"; sourceTree = "<group>"; };
+		9F065A3DEEA045EBBE4489BA8DE670AA /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		A134EDA7908A2EC7A50C4E30BF9ECE57 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		A6E255DD06359B94045240B863FA5461 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		AF2A6CCA8DFE22F855E58F2049D40162 /* Pods-DealmakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DealmakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68FDE7EC5A4253579988701669ED669 /* Pods-Dealmaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dealmaker-umbrella.h"; sourceTree = "<group>"; };
+		B833B50C68B856222CB25663635139B3 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		B85A1EF934EB8CB995CA48FE6B2F7DBB /* Pods-DealmakerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DealmakerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEFC7D9FC0043BB9FB8DFE264BD9C29C /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		C0DF027D619C4DFE25126459456EA28E /* Pods-DealmakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DealmakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C300669E31C1577C32EFC7796D01BCE3 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		C8CBA3F10F0A90EBE35AFC469FF4E5F0 /* Pods-DealmakerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DealmakerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCA81F750BEF65F11A8F3E370CCAA86D /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		D29F210D640A5DC966A94728131ADD83 /* Pods-Dealmaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dealmaker.release.xcconfig"; sourceTree = "<group>"; };
+		D2C317EFAE6B0BE6260F9EB1E64D0B8F /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		D5D582EF93EACF0551B9D061F45577B6 /* Pods-DealmakerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DealmakerUITests.modulemap"; sourceTree = "<group>"; };
+		D8BEF42DDBCE7FB365C5D677F08E70AE /* Pods-Dealmaker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dealmaker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DADD499267E0F1A1A1785FB520BF3612 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		DBA188B7233FAFFAF6E30B04D186DE8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E264C391020C14094CCC1E801DB8EDC9 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E7F84E1BC484E8FF0BCA014209442FB4 /* Pods-DealmakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DealmakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E82EDD38F771C7FE31FFFD251BF93FD4 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		EB6F9DD94EF27C7F697A99E18BF813B5 /* Pods-Dealmaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dealmaker.modulemap"; sourceTree = "<group>"; };
+		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F08C0822741D42073BAF5F1DB77A8AAF /* Pods-DealmakerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DealmakerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F15AC450DB50BDF7E6F9E746A058F22B /* Pods_DealmakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DealmakerUITests.framework; path = "Pods-DealmakerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A6E567C8E4F56E980CF127C094DF43 /* Pods-Dealmaker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dealmaker-frameworks.sh"; sourceTree = "<group>"; };
+		FBA1CFBBB8EB2A019B49608C1D7003ED /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD758E3DFB2C29FF1E300E00FC80FE99 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDBD759DE256E4A831740B0AA0D99B8E /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		FE449668FFECE462F880C730937E67C1 /* Pods-DealmakerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DealmakerUITests-resources.sh"; sourceTree = "<group>"; };
+		FE8327274E69823938AF18DB98349493 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DE9CE47351AEEE25C4C66C8DCF6ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5EE69BEC64E3DD1E756E778533BD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F25F78382B4B57C0CDEFD353764394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935C02B87C6734A70C5883F772BE91D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80427CF56420818BEF0449F95F82D7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC815D58329BCB48AA8E8199B9D142A /* CoreGraphics.framework in Frameworks */,
+				E2917C44B502EB6B7F4C8E0F7A989085 /* Foundation.framework in Frameworks */,
+				996FC5C6DC31D26EDF56F1B747BC3879 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E68EB9231A6478699A09B1321BB1E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD16AEEABE129B90222011A2C6A91D71 /* Foundation.framework in Frameworks */,
+				E20425AF91CE60ED295B2FF247E25CAD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AA014D3B13071EB7B7F3888099E3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35D736A3CB8E48BD5709CB7DB433D /* Foundation.framework in Frameworks */,
+				A5C9DD31EE6071DDD20F7FC9C33B0C39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D002D8CC7BB047F0D29C7144BD6912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C2E07830EED0478DB98056788FD62A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E711DE57C9128597862DCF08E287FEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BF6E6A533278C2A925FB79401533D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		224786524D6E9A5727485114A86D4E64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7849BC8D9CD049A02FAB4D1014C46AAD /* Info.plist */,
+				C300669E31C1577C32EFC7796D01BCE3 /* M13Checkbox.modulemap */,
+				23AE1C102E3056E8F0C8B31F2B8370E9 /* M13Checkbox.xcconfig */,
+				BEFC7D9FC0043BB9FB8DFE264BD9C29C /* M13Checkbox-dummy.m */,
+				A134EDA7908A2EC7A50C4E30BF9ECE57 /* M13Checkbox-prefix.pch */,
+				E264C391020C14094CCC1E801DB8EDC9 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		230FE7933F9CD206B1478132CD6DC684 /* Pods-Dealmaker */ = {
+			isa = PBXGroup;
+			children = (
+				DBA188B7233FAFFAF6E30B04D186DE8B /* Info.plist */,
+				EB6F9DD94EF27C7F697A99E18BF813B5 /* Pods-Dealmaker.modulemap */,
+				D8BEF42DDBCE7FB365C5D677F08E70AE /* Pods-Dealmaker-acknowledgements.markdown */,
+				3BC0798DA4BE88A9C43E944A0F8DA141 /* Pods-Dealmaker-acknowledgements.plist */,
+				70BC96DAFED1DA8BE50119172BC9BD7E /* Pods-Dealmaker-dummy.m */,
+				F5A6E567C8E4F56E980CF127C094DF43 /* Pods-Dealmaker-frameworks.sh */,
+				3B1960231FCB202E0C5E2011C1147667 /* Pods-Dealmaker-resources.sh */,
+				B68FDE7EC5A4253579988701669ED669 /* Pods-Dealmaker-umbrella.h */,
+				817B035E15BAC4C3344CA01C47BBD567 /* Pods-Dealmaker.debug.xcconfig */,
+				D29F210D640A5DC966A94728131ADD83 /* Pods-Dealmaker.release.xcconfig */,
+			);
+			name = "Pods-Dealmaker";
+			path = "Target Support Files/Pods-Dealmaker";
+			sourceTree = "<group>";
+		};
+		27A3FE8309C19D77426B3F99C42C10BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				887B872518721C2C426EB024C388E022 /* Info.plist */,
+				30EE764127E853C92F8298B5E2C89933 /* SwiftSpinner.modulemap */,
+				175AE7349285AC629BCA4682BDA217D2 /* SwiftSpinner.xcconfig */,
+				245ECED56241E78CCC5F96113DCEB1EE /* SwiftSpinner-dummy.m */,
+				76EC951A1E67F27A6494141E432BE6CF /* SwiftSpinner-prefix.pch */,
+				821D319AA1D0FDB6698F23369F46E0E6 /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		2EC354835CA011E0E5E106104D6AD6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93EF3803E67768403DD9C949E7F92CAD /* M13Checkbox.framework */,
+				26E8DCA63549E954F69F3056018805A4 /* Pods_Dealmaker.framework */,
+				48F720B90A5148E0E9629AF2972C14D7 /* Pods_DealmakerTests.framework */,
+				F15AC450DB50BDF7E6F9E746A058F22B /* Pods_DealmakerUITests.framework */,
+				06FE220AED65DEA905547C8C9A8226D5 /* SCLAlertView.framework */,
+				86103773BBC0A4C8A50BBFCE37C4593B /* SwiftSpinner.framework */,
+				FBA1CFBBB8EB2A019B49608C1D7003ED /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4754D9AE5C725BA00CD8C0FBE279F961 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5E9FEBF2579EFC3514400C92295DAC75 /* SCLAlertView.swift */,
+				FD758E3DFB2C29FF1E300E00FC80FE99 /* SCLExtensions.swift */,
+				DFCBAC1100726B5BFD24CD670449AEDC /* Support Files */,
+			);
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		52A4F5D1BA182CBC0208D6A206401EBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				230FE7933F9CD206B1478132CD6DC684 /* Pods-Dealmaker */,
+				EBD97865AF3A172D2B4FC005024EC4B2 /* Pods-DealmakerTests */,
+				BFA590167DFF0CF4D42979654276F6CB /* Pods-DealmakerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				F7303DF9C65F43CDE7C8A92E1621F9F6 /* Pods */,
+				2EC354835CA011E0E5E106104D6AD6BA /* Products */,
+				52A4F5D1BA182CBC0208D6A206401EBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7E3CD0B8322EBBD7F6E6E262776F05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C191978A993AD92FB277DC010CC2F2C /* Info.plist */,
+				B833B50C68B856222CB25663635139B3 /* Toast-Swift.modulemap */,
+				24C1DEB2966BB39658F3E21990D1FF40 /* Toast-Swift.xcconfig */,
+				FE8327274E69823938AF18DB98349493 /* Toast-Swift-dummy.m */,
+				CCA81F750BEF65F11A8F3E370CCAA86D /* Toast-Swift-prefix.pch */,
+				0EC61A9924F1C702FB0BE6834C705D04 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */,
+				ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */,
+				E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */,
+				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A5B50F57883ADBE14FE2CFCB5AB3D211 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				53544FE23CD16471EB7A7DFA127050C0 /* DefaultValues.swift */,
+				16351E777556695F444E56EBE6B2BAAD /* M13Checkbox.swift */,
+				55B1A9F58D32C2811E372AD40F4A7671 /* M13Checkbox+IB.swift */,
+				31754A4777CDC395C90F406ABB22EB96 /* M13CheckboxAddRemovePathGenerator.swift */,
+				510A593427E43C33156EC6EDEF37B898 /* M13CheckboxAnimationGenerator.swift */,
+				23BE1DE649098916706E7779FDE7C83D /* M13CheckboxBounceController.swift */,
+				48976CB29C816EBE16302C3454E776A5 /* M13CheckboxCheckPathGenerator.swift */,
+				9F065A3DEEA045EBBE4489BA8DE670AA /* M13CheckboxController.swift */,
+				98D5796FB7BF02221C887805D2F1E699 /* M13CheckboxDisclosurePathGenerator.swift */,
+				A6E255DD06359B94045240B863FA5461 /* M13CheckboxDotController.swift */,
+				FDBD759DE256E4A831740B0AA0D99B8E /* M13CheckboxExpandController.swift */,
+				8353653C6D04C94F6A5D21D14F367759 /* M13CheckboxFadeController.swift */,
+				52558BA26E797777D025C6FDBF03DB10 /* M13CheckboxFillController.swift */,
+				53E0C2763950EC093449DAAEC6CF87BE /* M13CheckboxFlatController.swift */,
+				48B99E5001F8B3275891F9EB59170C9C /* M13CheckboxGestureRecognizer.swift */,
+				E82EDD38F771C7FE31FFFD251BF93FD4 /* M13CheckboxPathGenerator.swift */,
+				9A7E73B688D4F8508FDDAA0846F0C672 /* M13CheckboxRadioPathGenerator.swift */,
+				96ED3F671019E1A4C87C08DDEB08F714 /* M13CheckboxSpiralController.swift */,
+				D2C317EFAE6B0BE6260F9EB1E64D0B8F /* M13CheckboxStrokeController.swift */,
+				224786524D6E9A5727485114A86D4E64 /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		BD3D13458C41988B6E52C7250C6EC148 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				DADD499267E0F1A1A1785FB520BF3612 /* SwiftSpinner.h */,
+				30B251BA100F911583C21E65A23B0A26 /* SwiftSpinner.swift */,
+				27A3FE8309C19D77426B3F99C42C10BE /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		BFA590167DFF0CF4D42979654276F6CB /* Pods-DealmakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41082D2D3A13930F4E48575FD1B80810 /* Info.plist */,
+				D5D582EF93EACF0551B9D061F45577B6 /* Pods-DealmakerUITests.modulemap */,
+				C8CBA3F10F0A90EBE35AFC469FF4E5F0 /* Pods-DealmakerUITests-acknowledgements.markdown */,
+				7FF4B62353E874FDCBBA0FF86F50BE93 /* Pods-DealmakerUITests-acknowledgements.plist */,
+				5FC1054CAC1DAAF72E3915865D897410 /* Pods-DealmakerUITests-dummy.m */,
+				3A2BFC180DB75E84A273CA2469F20C8F /* Pods-DealmakerUITests-frameworks.sh */,
+				FE449668FFECE462F880C730937E67C1 /* Pods-DealmakerUITests-resources.sh */,
+				912C212D61BCD3F69A0732B3697A18DB /* Pods-DealmakerUITests-umbrella.h */,
+				AF2A6CCA8DFE22F855E58F2049D40162 /* Pods-DealmakerUITests.debug.xcconfig */,
+				C0DF027D619C4DFE25126459456EA28E /* Pods-DealmakerUITests.release.xcconfig */,
+			);
+			name = "Pods-DealmakerUITests";
+			path = "Target Support Files/Pods-DealmakerUITests";
+			sourceTree = "<group>";
+		};
+		DFCBAC1100726B5BFD24CD670449AEDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				538FB70E7B8324350BF045C54C1560A4 /* Info.plist */,
+				8E2D6F013D7DD16688ABB4B83800ED7B /* SCLAlertView.modulemap */,
+				15EF3A06CD0CD50E34A68FFB156E55EA /* SCLAlertView.xcconfig */,
+				6A4D2529FAD50760858B43F513C44DB9 /* SCLAlertView-dummy.m */,
+				1F42831DBBF793CA8F52B0D8D697F23C /* SCLAlertView-prefix.pch */,
+				5CDA893B546AE1B480198EEE1E4220A2 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		EBD97865AF3A172D2B4FC005024EC4B2 /* Pods-DealmakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				768848AE3E40473C20FBBC773B10F663 /* Info.plist */,
+				5EAEA1FD1C84907D2DE880A3685CE2A3 /* Pods-DealmakerTests.modulemap */,
+				B85A1EF934EB8CB995CA48FE6B2F7DBB /* Pods-DealmakerTests-acknowledgements.markdown */,
+				F08C0822741D42073BAF5F1DB77A8AAF /* Pods-DealmakerTests-acknowledgements.plist */,
+				5A5411188A1DB4FDA20CF36582F70D16 /* Pods-DealmakerTests-dummy.m */,
+				814D07D96A4027AA86332D5208F01351 /* Pods-DealmakerTests-frameworks.sh */,
+				9DB186CDD246BE682C8F55254BB1BC62 /* Pods-DealmakerTests-resources.sh */,
+				6489F76C1F098D6B1C5458A757815AF7 /* Pods-DealmakerTests-umbrella.h */,
+				2FD7AF9D4B1525385B44AFDF561CCA7F /* Pods-DealmakerTests.debug.xcconfig */,
+				E7F84E1BC484E8FF0BCA014209442FB4 /* Pods-DealmakerTests.release.xcconfig */,
+			);
+			name = "Pods-DealmakerTests";
+			path = "Target Support Files/Pods-DealmakerTests";
+			sourceTree = "<group>";
+		};
+		F7303DF9C65F43CDE7C8A92E1621F9F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5B50F57883ADBE14FE2CFCB5AB3D211 /* M13Checkbox */,
+				4754D9AE5C725BA00CD8C0FBE279F961 /* SCLAlertView */,
+				BD3D13458C41988B6E52C7250C6EC148 /* SwiftSpinner */,
+				F9DE1AE4A879976DAC56D2E2EE79E279 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9DE1AE4A879976DAC56D2E2EE79E279 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				759D39AFD54A39821107B0F1180F594F /* Toast.swift */,
+				8A7E3CD0B8322EBBD7F6E6E262776F05 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0208C2C4238FACCE8F51376C7B4A799A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A70C35B3A29DBA7AB9EB5A00DD85DB7 /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4673425E73D18B79A45EE5570E15D26D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6853FB4167701B2DF94D7CDFB38B8CAD /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9413CAD6B98F7E614974065F561FE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077DD93C495B563764EB855E06ACD672 /* Pods-DealmakerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F44CA674CB1CA19B265FE1F07FEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A4A94AEED91956A7D7E63D629B1E49 /* Pods-DealmakerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567CCE322C42DB344BCE2FDFFD7237A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B5F84D2B11F82A5386973513F79040 /* Pods-Dealmaker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47530EC36D0F7D1478E4A1F93381E1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63DBC1C1A7547F846A70694643B1FE4 /* SwiftSpinner-umbrella.h in Headers */,
+				B0DB491E9D426008B989012FB2421537 /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14BC8FE5B5058563AB938FE8B4D227E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99841D179E7148C570C5963FF41E965 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C4A80675B64C1C724CED3D217C5C291 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761071D9253D8FDD0B30F009FFC96949 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				65205FE99393B6E9A78808C9C1943569 /* Sources */,
+				17DE9CE47351AEEE25C4C66C8DCF6ABF /* Frameworks */,
+				0208C2C4238FACCE8F51376C7B4A799A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 06FE220AED65DEA905547C8C9A8226D5 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DCB50D252FC52AD9905E0321907DCBA /* Pods-DealmakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA877DA048E34C7801399DFBDE0D886 /* Build configuration list for PBXNativeTarget "Pods-DealmakerTests" */;
+			buildPhases = (
+				95C699B9D7BD03200201112E72B17590 /* Sources */,
+				33F25F78382B4B57C0CDEFD353764394 /* Frameworks */,
+				5B5F44CA674CB1CA19B265FE1F07FEC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DealmakerTests";
+			productName = "Pods-DealmakerTests";
+			productReference = 48F720B90A5148E0E9629AF2972C14D7 /* Pods_DealmakerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F252C74B0E5B4BF0512064453AE32FC /* Pods-Dealmaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08697A7A20E1BE65CBBBBF3779A6592 /* Build configuration list for PBXNativeTarget "Pods-Dealmaker" */;
+			buildPhases = (
+				926F5E28CFE20D4F3E5B462FD7532224 /* Sources */,
+				D1D002D8CC7BB047F0D29C7144BD6912 /* Frameworks */,
+				6567CCE322C42DB344BCE2FDFFD7237A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663906D98E257240E9E1C4ED0BF77409 /* PBXTargetDependency */,
+				52E60926638F01C1634C2B0B08E954DD /* PBXTargetDependency */,
+				583C4FFD20B94CF991CDF62C9E50574C /* PBXTargetDependency */,
+				3FA59166B03CB22C0C4C48C900A84C49 /* PBXTargetDependency */,
+			);
+			name = "Pods-Dealmaker";
+			productName = "Pods-Dealmaker";
+			productReference = 26E8DCA63549E954F69F3056018805A4 /* Pods_Dealmaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CD9FC035D83AD9BA719108E6A9A694F /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8541BF5774BA6A1CEA3B6D3D8D3860 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				DCEE5581913946BE6573D0B329081888 /* Sources */,
+				80427CF56420818BEF0449F95F82D7EC /* Frameworks */,
+				4673425E73D18B79A45EE5570E15D26D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 93EF3803E67768403DD9C949E7F92CAD /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DFDEC2E80F41CB875B820B4CD787016 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDA0B07D28A492E1C7A55D29B3202AB /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				044C81A2C1E393367C57A845A3BA59DD /* Sources */,
+				8E68EB9231A6478699A09B1321BB1E55 /* Frameworks */,
+				E14BC8FE5B5058563AB938FE8B4D227E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = FBA1CFBBB8EB2A019B49608C1D7003ED /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB3E357458AF20CEBDD4E15650507202 /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B075FE906568CFDC2685525A998657 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				ABDA04547AEB1CD7756159565DBB00DF /* Sources */,
+				98AA014D3B13071EB7B7F3888099E3CB /* Frameworks */,
+				A47530EC36D0F7D1478E4A1F93381E1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = 86103773BBC0A4C8A50BBFCE37C4593B /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E181B2FA9894F8E71B5523AE617A50BC /* Pods-DealmakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297F156C8BAF6EF89B01CF081B6D2C95 /* Build configuration list for PBXNativeTarget "Pods-DealmakerUITests" */;
+			buildPhases = (
+				93D1712DF211707A9AC86B92B8B672FD /* Sources */,
+				E711DE57C9128597862DCF08E287FEB8 /* Frameworks */,
+				5A9413CAD6B98F7E614974065F561FE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DealmakerUITests";
+			productName = "Pods-DealmakerUITests";
+			productReference = F15AC450DB50BDF7E6F9E746A058F22B /* Pods_DealmakerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2EC354835CA011E0E5E106104D6AD6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD9FC035D83AD9BA719108E6A9A694F /* M13Checkbox */,
+				6F252C74B0E5B4BF0512064453AE32FC /* Pods-Dealmaker */,
+				4DCB50D252FC52AD9905E0321907DCBA /* Pods-DealmakerTests */,
+				E181B2FA9894F8E71B5523AE617A50BC /* Pods-DealmakerUITests */,
+				2C4A80675B64C1C724CED3D217C5C291 /* SCLAlertView */,
+				BB3E357458AF20CEBDD4E15650507202 /* SwiftSpinner */,
+				8DFDEC2E80F41CB875B820B4CD787016 /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044C81A2C1E393367C57A845A3BA59DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A45A26C67B2B0CB41E7C5C9F227E6C3 /* Toast-Swift-dummy.m in Sources */,
+				42CDB330BDCCD4ED4CE52854435328FA /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65205FE99393B6E9A78808C9C1943569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD3D7404B697F62F74B6E64AAC7788A /* SCLAlertView-dummy.m in Sources */,
+				C9F4CCF8347EF03A46469482AF68AF05 /* SCLAlertView.swift in Sources */,
+				8281BFFFC106883AF2FDF568C1755088 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926F5E28CFE20D4F3E5B462FD7532224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D7BC593760DB1D46CBBADCF237C4FA /* Pods-Dealmaker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D1712DF211707A9AC86B92B8B672FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A8FA867A303CE13BC2B2A3BCCCEE03 /* Pods-DealmakerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C699B9D7BD03200201112E72B17590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA2C378752A59FDE7033AEB94FCF56D /* Pods-DealmakerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA04547AEB1CD7756159565DBB00DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8F740796AC9BD225ABC811EA05246 /* SwiftSpinner-dummy.m in Sources */,
+				DC8EFB498DC2D1D3B7B276AC3F5C740D /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEE5581913946BE6573D0B329081888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4E2AB7D604B3D36AF26C8D7EECE416 /* DefaultValues.swift in Sources */,
+				97713C0235F372715A3AD292C57C8FEC /* M13Checkbox+IB.swift in Sources */,
+				183F3E45381030F3C43E1398361387D3 /* M13Checkbox-dummy.m in Sources */,
+				C88F144420533BCDEE60E418C316FB8E /* M13Checkbox.swift in Sources */,
+				BD78E8DDD27AF7518D2AE2456285730C /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				B5DE980791D4DBD13DF2F0A44893E255 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				0744231B4276CDE27CB12C5C084A347E /* M13CheckboxBounceController.swift in Sources */,
+				B7D8254786CE0AE3BF97982B7FAAD198 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				80DC15A0582068D6EDE31A6178375C89 /* M13CheckboxController.swift in Sources */,
+				AB839F535003BA79950BDC9A0B50D923 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				7D94389D13C85695A7E5328202FF9CB0 /* M13CheckboxDotController.swift in Sources */,
+				1EB79404C783C6997ADCC1DD5EC40BC2 /* M13CheckboxExpandController.swift in Sources */,
+				2E903E65241641AFF0E46CBC57B26015 /* M13CheckboxFadeController.swift in Sources */,
+				D5218FB15C76B99D57BDB9EB6B27D7BA /* M13CheckboxFillController.swift in Sources */,
+				8C6EB311B0B897CD705D6F53BDDF0EFB /* M13CheckboxFlatController.swift in Sources */,
+				2110386154BC3992FB1D69D0DA2DAF0A /* M13CheckboxGestureRecognizer.swift in Sources */,
+				8942922B30F9E19A21D2EB015F832D2F /* M13CheckboxPathGenerator.swift in Sources */,
+				7D5AB7A91E820D7EECD12A6EA221D479 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				73A3753C550F26AEE354F43D7AA98ACE /* M13CheckboxSpiralController.swift in Sources */,
+				13FC128B4DD17CD90F02593EAAAE9A67 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA59166B03CB22C0C4C48C900A84C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 8DFDEC2E80F41CB875B820B4CD787016 /* Toast-Swift */;
+			targetProxy = D2300B440EAF42832769FFBCD494A6A1 /* PBXContainerItemProxy */;
+		};
+		52E60926638F01C1634C2B0B08E954DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 2C4A80675B64C1C724CED3D217C5C291 /* SCLAlertView */;
+			targetProxy = C1AC4680DA713BB618ADE404434F2AC4 /* PBXContainerItemProxy */;
+		};
+		583C4FFD20B94CF991CDF62C9E50574C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = BB3E357458AF20CEBDD4E15650507202 /* SwiftSpinner */;
+			targetProxy = AC63090B4AC3E9E2096FEB0F7B945890 /* PBXContainerItemProxy */;
+		};
+		663906D98E257240E9E1C4ED0BF77409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 8CD9FC035D83AD9BA719108E6A9A694F /* M13Checkbox */;
+			targetProxy = EBB988E91002F22E2B435385BD8C59BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150D44647FF48E631C153F86153969CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175AE7349285AC629BCA4682BDA217D2 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F741F2DA0BA1CAD665B3081E1A3697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AE1C102E3056E8F0C8B31F2B8370E9 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4113454E257C485A5C9F35EDAFEDD36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175AE7349285AC629BCA4682BDA217D2 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54AF8C94DAB7077B1BB98DA8F35D8B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DF027D619C4DFE25126459456EA28E /* Pods-DealmakerUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DealmakerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DealmakerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5811D0E82BD1FBB954EA692C2B8A62E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817B035E15BAC4C3344CA01C47BBD567 /* Pods-Dealmaker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dealmaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dealmaker/Pods-Dealmaker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dealmaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B2BC47CF61DA9591DF842139963671E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C1DEB2966BB39658F3E21990D1FF40 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		973F76EBD66EB248B034D20CC95933D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EF3A06CD0CD50E34A68FFB156E55EA /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3DD7F58E1861A42F13A64CE0C124EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2A6CCA8DFE22F855E58F2049D40162 /* Pods-DealmakerUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DealmakerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DealmakerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFBED39F41BC80EC9EA5BF79B98E6368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F84E1BC484E8FF0BCA014209442FB4 /* Pods-DealmakerTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DealmakerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DealmakerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D62EF8FED61F7C98E81CA21C35C21B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD7AF9D4B1525385B44AFDF561CCA7F /* Pods-DealmakerTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DealmakerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DealmakerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D90D42A767D9FAE9D4C3D46D0F06581C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29F210D640A5DC966A94728131ADD83 /* Pods-Dealmaker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dealmaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dealmaker/Pods-Dealmaker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dealmaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC7156BAB8F8AAADC28B6323AF53C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EF3A06CD0CD50E34A68FFB156E55EA /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA35C58A61EEFED509672B4B41E2EF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C1DEB2966BB39658F3E21990D1FF40 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF4E6B4139DAB85807B7F3F7081E7A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AE1C102E3056E8F0C8B31F2B8370E9 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297F156C8BAF6EF89B01CF081B6D2C95 /* Build configuration list for PBXNativeTarget "Pods-DealmakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DD7F58E1861A42F13A64CE0C124EF7 /* Debug */,
+				54AF8C94DAB7077B1BB98DA8F35D8B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA877DA048E34C7801399DFBDE0D886 /* Build configuration list for PBXNativeTarget "Pods-DealmakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62EF8FED61F7C98E81CA21C35C21B52 /* Debug */,
+				BFBED39F41BC80EC9EA5BF79B98E6368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDA0B07D28A492E1C7A55D29B3202AB /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2BC47CF61DA9591DF842139963671E /* Debug */,
+				FA35C58A61EEFED509672B4B41E2EF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761071D9253D8FDD0B30F009FFC96949 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7156BAB8F8AAADC28B6323AF53C12E /* Debug */,
+				973F76EBD66EB248B034D20CC95933D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B075FE906568CFDC2685525A998657 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4113454E257C485A5C9F35EDAFEDD36B /* Debug */,
+				150D44647FF48E631C153F86153969CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08697A7A20E1BE65CBBBBF3779A6592 /* Build configuration list for PBXNativeTarget "Pods-Dealmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5811D0E82BD1FBB954EA692C2B8A62E2 /* Debug */,
+				D90D42A767D9FAE9D4C3D46D0F06581C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8541BF5774BA6A1CEA3B6D3D8D3860 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F741F2DA0BA1CAD665B3081E1A3697A /* Debug */,
+				FF4E6B4139DAB85807B7F3F7081E7A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
