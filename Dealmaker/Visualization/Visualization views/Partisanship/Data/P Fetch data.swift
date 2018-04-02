@@ -33,13 +33,7 @@ extension PartisanshipVisualizationView {
         }
         if parties.count > 0 { filtersParam["party"] = ["$in": parties] }
         topicsParam = topics
-        
-        if filtersParam.count == 1 && filtersParam["type"] is [String: [String]] {
-            SCLAlertView().showError("Cannot perform request", subTitle: "Your device cannot show all the representatives because its memory limit is too low. Filter by state or party for more precise and manageable data. Sorry for any inconvenience.")
-            SwiftSpinner.hide()
-            return
-        }
-        
+                
         if let filtersData = try? JSONSerialization.data(withJSONObject: filtersParam, options: .prettyPrinted),
             let filtersStr = String(data: filtersData, encoding: .utf8),
             let topicsData = try? JSONSerialization.data(withJSONObject: topicsParam, options: .prettyPrinted),
