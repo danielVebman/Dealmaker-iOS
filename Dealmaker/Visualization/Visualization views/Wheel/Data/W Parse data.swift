@@ -51,7 +51,11 @@ extension WheelVisualizationView {
         if let metadata = metadata {
             setData(people, metadata: metadata)
         } else {
-            // give alert that something went horribly wrong
+            DispatchQueue.main.sync {
+                SwiftSpinner.hide()
+                SCLAlertView().showError("Oh jeez", subTitle: "Something has gone horribly wrong! The server may have gone down or data may have corrupted. Please email me to let me know.").setDismissBlock {
+                }
+            }
         }
     }
     

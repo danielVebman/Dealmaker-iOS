@@ -27,8 +27,6 @@
 		065DD43B206676F200A8D8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065DD439206676F200A8D8B6 /* Main.storyboard */; };
 		065DD43D206676F200A8D8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065DD43C206676F200A8D8B6 /* Assets.xcassets */; };
 		065DD440206676F200A8D8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065DD43E206676F200A8D8B6 /* LaunchScreen.storyboard */; };
-		065DD44B206676F200A8D8B6 /* DealmakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD44A206676F200A8D8B6 /* DealmakerTests.swift */; };
-		065DD456206676F200A8D8B6 /* DealmakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD455206676F200A8D8B6 /* DealmakerUITests.swift */; };
 		065DD4642066774700A8D8B6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD4632066774700A8D8B6 /* Colors.swift */; };
 		065DD4662066775D00A8D8B6 /* UI components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD4652066775D00A8D8B6 /* UI components.swift */; };
 		065DD486206677DC00A8D8B6 /* LogoAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD485206677DC00A8D8B6 /* LogoAnim.swift */; };
@@ -44,7 +42,7 @@
 		0679BA922067F95E005BB22C /* CirclesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679BA912067F95E005BB22C /* CirclesBar.swift */; };
 		068F86D420715B030064D1DE /* PartisanshipVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */; };
 		068F86D720715B190064D1DE /* P Fetch data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D620715B190064D1DE /* P Fetch data.swift */; };
-		068F86D920715B1E0064D1DE /* P parse data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D820715B1E0064D1DE /* P parse data.swift */; };
+		068F86D920715B1E0064D1DE /* P Parse data TEMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D820715B1E0064D1DE /* P Parse data TEMP.swift */; };
 		068F86DB20715DBB0064D1DE /* P table delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DA20715DBB0064D1DE /* P table delegate.swift */; };
 		068F86DD20715E9D0064D1DE /* PartisanshipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */; };
 		068F86DF207160230064D1DE /* P table datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DE207160230064D1DE /* P table datasource.swift */; };
@@ -100,11 +98,7 @@
 		065DD43F206676F200A8D8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		065DD441206676F200A8D8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065DD446206676F200A8D8B6 /* DealmakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealmakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		065DD44A206676F200A8D8B6 /* DealmakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealmakerTests.swift; sourceTree = "<group>"; };
-		065DD44C206676F200A8D8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065DD451206676F200A8D8B6 /* DealmakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealmakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		065DD455206676F200A8D8B6 /* DealmakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealmakerUITests.swift; sourceTree = "<group>"; };
-		065DD457206676F200A8D8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065DD4632066774700A8D8B6 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		065DD4652066775D00A8D8B6 /* UI components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI components.swift"; sourceTree = "<group>"; };
 		065DD485206677DC00A8D8B6 /* LogoAnim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoAnim.swift; sourceTree = "<group>"; };
@@ -120,7 +114,7 @@
 		0679BA912067F95E005BB22C /* CirclesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesBar.swift; sourceTree = "<group>"; };
 		068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipVisualizationView.swift; sourceTree = "<group>"; };
 		068F86D620715B190064D1DE /* P Fetch data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P Fetch data.swift"; sourceTree = "<group>"; };
-		068F86D820715B1E0064D1DE /* P parse data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P parse data.swift"; sourceTree = "<group>"; };
+		068F86D820715B1E0064D1DE /* P Parse data TEMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P Parse data TEMP.swift"; sourceTree = "<group>"; };
 		068F86DA20715DBB0064D1DE /* P table delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P table delegate.swift"; sourceTree = "<group>"; };
 		068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipCell.swift; sourceTree = "<group>"; };
 		068F86DE207160230064D1DE /* P table datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P table datasource.swift"; sourceTree = "<group>"; };
@@ -237,8 +231,6 @@
 			isa = PBXGroup;
 			children = (
 				065DD434206676F200A8D8B6 /* Dealmaker */,
-				065DD449206676F200A8D8B6 /* DealmakerTests */,
-				065DD454206676F200A8D8B6 /* DealmakerUITests */,
 				065DD433206676F200A8D8B6 /* Products */,
 				EF2328562C5B5A0289EDD7B5 /* Pods */,
 				3F292D922DA52F6454AC95BD /* Frameworks */,
@@ -270,24 +262,6 @@
 				065DD467206677AA00A8D8B6 /* Fonts */,
 			);
 			path = Dealmaker;
-			sourceTree = "<group>";
-		};
-		065DD449206676F200A8D8B6 /* DealmakerTests */ = {
-			isa = PBXGroup;
-			children = (
-				065DD44A206676F200A8D8B6 /* DealmakerTests.swift */,
-				065DD44C206676F200A8D8B6 /* Info.plist */,
-			);
-			path = DealmakerTests;
-			sourceTree = "<group>";
-		};
-		065DD454206676F200A8D8B6 /* DealmakerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				065DD455206676F200A8D8B6 /* DealmakerUITests.swift */,
-				065DD457206676F200A8D8B6 /* Info.plist */,
-			);
-			path = DealmakerUITests;
 			sourceTree = "<group>";
 		};
 		065DD467206677AA00A8D8B6 /* Fonts */ = {
@@ -347,7 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				068F86D620715B190064D1DE /* P Fetch data.swift */,
-				068F86D820715B1E0064D1DE /* P parse data.swift */,
+				068F86D820715B1E0064D1DE /* P Parse data TEMP.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -747,7 +721,7 @@
 				06C584272069AC00001EBBCB /* AsyncImageView.swift in Sources */,
 				0611F81620685E7B00C0D19D /* CirclesBarDelegate.swift in Sources */,
 				06BA35BF206C8C8900CCEE6C /* ImageAnnotation.swift in Sources */,
-				068F86D920715B1E0064D1DE /* P parse data.swift in Sources */,
+				068F86D920715B1E0064D1DE /* P Parse data TEMP.swift in Sources */,
 				062CCC0920673DCB00DE8A18 /* GeographicVisualizationView.swift in Sources */,
 				068F86D420715B030064D1DE /* PartisanshipVisualizationView.swift in Sources */,
 				0611F82020685FF300C0D19D /* CirclesTableDataSource.swift in Sources */,
@@ -771,7 +745,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065DD44B206676F200A8D8B6 /* DealmakerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,7 +752,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065DD456206676F200A8D8B6 /* DealmakerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

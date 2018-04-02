@@ -12,7 +12,6 @@ import UIKit
 class CirclesMenuBar: UIView {
     private(set) var circlesContainer: UIScrollView
     private(set) var circles = [CircleView]()
-//    var closeMenuButton: UIButton!
     
     var delegate: CirclesMenuBarDelegate?
     
@@ -29,9 +28,6 @@ class CirclesMenuBar: UIView {
         
         super.init(frame: frame)
         addSubview(circlesContainer)
-        
-//        let diameter = frame.height - 10
-//        closeMenuButton = UIButton(frame: CGRect(x: frame.width - 20 - diameter, y: frame.height - 20 - diameter, width: diameter, height: diameter))
         
         addCircle(image: #imageLiteral(resourceName: "back"), title: "Back")
     }

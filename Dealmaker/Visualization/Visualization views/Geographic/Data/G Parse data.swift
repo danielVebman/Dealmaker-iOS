@@ -21,7 +21,7 @@ extension GeographicVisualizationView {
         var metadata: [String: Int]?
         var coordinates: [String: CLLocationCoordinate2D]?
         var people = [String: Congressperson]()
-        var i = 0
+        
         for datum in data.split(separator: 0x0a) {
             guard
                 let serialization = try? JSONSerialization.jsonObject(with: datum, options: .allowFragments),
@@ -58,8 +58,11 @@ extension GeographicVisualizationView {
         if let coordinates = coordinates, let metadata = metadata {
             setData(people, coordinates: coordinates, metadata: metadata)
         } else {
-            print(coordinates, metadata)
-            // give alert that something went horribly wrong
+            DispatchQueue.main.sync {
+                SwiftSpinner.hide()
+                SCLAlertView().showError("Oh jeez", subTitle: "Something has gone horribly wrong! The server may have gone down or data may have corrupted. Please email me to let me know.").setDismissBlock {
+                }
+            }
         }
     }
     
