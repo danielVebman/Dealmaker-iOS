@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0457338064CADB062FFD3852 /* Pods_Dealmaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB56BCEEB95EF78E166A146A /* Pods_Dealmaker.framework */; };
+		0611F81420685E5F00C0D19D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F81320685E5F00C0D19D /* CircleView.swift */; };
+		0611F81620685E7B00C0D19D /* CirclesBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F81520685E7B00C0D19D /* CirclesBarDelegate.swift */; };
+		0611F81920685EFC00C0D19D /* Visualization helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F81820685EFC00C0D19D /* Visualization helper.swift */; };
+		0611F81E20685FE100C0D19D /* CirclesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F81D20685FE100C0D19D /* CirclesTableCell.swift */; };
+		0611F82020685FF300C0D19D /* CirclesTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F81F20685FF300C0D19D /* CirclesTableDataSource.swift */; };
+		0611F8222068604700C0D19D /* CirclesTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F8212068604700C0D19D /* CirclesTableItem.swift */; };
+		0611F827206872BF00C0D19D /* states.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0611F826206872BF00C0D19D /* states.txt */; };
+		0611F8292068743200C0D19D /* topics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0611F8282068743200C0D19D /* topics.txt */; };
+		0611F82B206884D200C0D19D /* Setup selected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611F82A206884D200C0D19D /* Setup selected.swift */; };
+		0629D646206AC5E000F22346 /* Lines overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D645206AC5E000F22346 /* Lines overlay.swift */; };
+		062C19D6207065490093EB1D /* Touch delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062C19D5207065490093EB1D /* Touch delegate.swift */; };
+		062CCC0620673DAB00DE8A18 /* VisualizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062CCC0520673DAB00DE8A18 /* VisualizationViewController.swift */; };
+		062CCC0920673DCB00DE8A18 /* GeographicVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062CCC0820673DCB00DE8A18 /* GeographicVisualizationView.swift */; };
+		062CCC1420674DDD00DE8A18 /* ButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062CCC1320674DDD00DE8A18 /* ButtonHelper.swift */; };
 		065DD436206676F200A8D8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD435206676F200A8D8B6 /* AppDelegate.swift */; };
 		065DD438206676F200A8D8B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD437206676F200A8D8B6 /* MainViewController.swift */; };
 		065DD43B206676F200A8D8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065DD439206676F200A8D8B6 /* Main.storyboard */; };
@@ -19,6 +33,28 @@
 		065DD4662066775D00A8D8B6 /* UI components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD4652066775D00A8D8B6 /* UI components.swift */; };
 		065DD486206677DC00A8D8B6 /* LogoAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DD485206677DC00A8D8B6 /* LogoAnim.swift */; };
 		065DD48B20667B4200A8D8B6 /* Kiona-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065DD48A20667B4200A8D8B6 /* Kiona-Regular.ttf */; };
+		06658FEB206C104C000E0285 /* SliderDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06658FEA206C104C000E0285 /* SliderDrawer.swift */; };
+		067700CB20703E47009F6426 /* WheelVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700CA20703E47009F6426 /* WheelVisualizationView.swift */; };
+		067700CF20703F0B009F6426 /* W Fetch data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700CD20703F0B009F6426 /* W Fetch data.swift */; };
+		067700D020703F0B009F6426 /* W Parse data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700CE20703F0B009F6426 /* W Parse data.swift */; };
+		067700D320703F9E009F6426 /* G Fetch data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700D120703F9E009F6426 /* G Fetch data.swift */; };
+		067700D420703F9E009F6426 /* G Parse data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700D220703F9E009F6426 /* G Parse data.swift */; };
+		067700D620703FE3009F6426 /* Congresspersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700D520703FE3009F6426 /* Congresspersons.swift */; };
+		067700D9207051DB009F6426 /* WheelDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067700D8207051DB009F6426 /* WheelDraw.swift */; };
+		0679BA922067F95E005BB22C /* CirclesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679BA912067F95E005BB22C /* CirclesBar.swift */; };
+		068F86D420715B030064D1DE /* PartisanshipVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */; };
+		068F86D720715B190064D1DE /* P Fetch data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D620715B190064D1DE /* P Fetch data.swift */; };
+		068F86D920715B1E0064D1DE /* P parse data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86D820715B1E0064D1DE /* P parse data.swift */; };
+		068F86DB20715DBB0064D1DE /* P table delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DA20715DBB0064D1DE /* P table delegate.swift */; };
+		068F86DD20715E9D0064D1DE /* PartisanshipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */; };
+		068F86DF207160230064D1DE /* P table datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86DE207160230064D1DE /* P table datasource.swift */; };
+		068F86E1207164F50064D1DE /* PartisanshipSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F86E0207164F50064D1DE /* PartisanshipSlider.swift */; };
+		06BA35BB206C78A400CCEE6C /* GeoVisDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA35BA206C78A400CCEE6C /* GeoVisDelegate.swift */; };
+		06BA35BD206C799B00CCEE6C /* GeoVisDrawLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA35BC206C799B00CCEE6C /* GeoVisDrawLines.swift */; };
+		06BA35BF206C8C8900CCEE6C /* ImageAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA35BE206C8C8900CCEE6C /* ImageAnnotation.swift */; };
+		06C584272069AC00001EBBCB /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C584262069AC00001EBBCB /* AsyncImageView.swift */; };
+		06C99E54206836D800B9757A /* CirclesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C99E53206836D800B9757A /* CirclesTable.swift */; };
+		06C99E5720685BE900B9757A /* VisualizationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C99E5620685BE900B9757A /* VisualizationMenu.swift */; };
 		365EC048E47AC97878D24382 /* Pods_DealmakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B978856EAE4D8652E1F0747 /* Pods_DealmakerUITests.framework */; };
 		E204DD7FC607F621D574BEB9 /* Pods_DealmakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66A95E690A2195CE1946A83 /* Pods_DealmakerTests.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +78,20 @@
 
 /* Begin PBXFileReference section */
 		05B8362C104BACCB04EC64BF /* Pods-DealmakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealmakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealmakerTests/Pods-DealmakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0611F81320685E5F00C0D19D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0611F81520685E7B00C0D19D /* CirclesBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesBarDelegate.swift; sourceTree = "<group>"; };
+		0611F81820685EFC00C0D19D /* Visualization helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Visualization helper.swift"; sourceTree = "<group>"; };
+		0611F81D20685FE100C0D19D /* CirclesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTableCell.swift; sourceTree = "<group>"; };
+		0611F81F20685FF300C0D19D /* CirclesTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTableDataSource.swift; sourceTree = "<group>"; };
+		0611F8212068604700C0D19D /* CirclesTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTableItem.swift; sourceTree = "<group>"; };
+		0611F826206872BF00C0D19D /* states.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = states.txt; sourceTree = "<group>"; };
+		0611F8282068743200C0D19D /* topics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = topics.txt; sourceTree = "<group>"; };
+		0611F82A206884D200C0D19D /* Setup selected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setup selected.swift"; sourceTree = "<group>"; };
+		0629D645206AC5E000F22346 /* Lines overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lines overlay.swift"; sourceTree = "<group>"; };
+		062C19D5207065490093EB1D /* Touch delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Touch delegate.swift"; sourceTree = "<group>"; };
+		062CCC0520673DAB00DE8A18 /* VisualizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizationViewController.swift; sourceTree = "<group>"; };
+		062CCC0820673DCB00DE8A18 /* GeographicVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographicVisualizationView.swift; sourceTree = "<group>"; };
+		062CCC1320674DDD00DE8A18 /* ButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelper.swift; sourceTree = "<group>"; };
 		065DD432206676F200A8D8B6 /* Dealmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dealmaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		065DD435206676F200A8D8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		065DD437206676F200A8D8B6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +109,29 @@
 		065DD4652066775D00A8D8B6 /* UI components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI components.swift"; sourceTree = "<group>"; };
 		065DD485206677DC00A8D8B6 /* LogoAnim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoAnim.swift; sourceTree = "<group>"; };
 		065DD48A20667B4200A8D8B6 /* Kiona-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kiona-Regular.ttf"; sourceTree = "<group>"; };
-		06D6A4F720667DCB007BB265 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		06658FEA206C104C000E0285 /* SliderDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderDrawer.swift; sourceTree = "<group>"; };
+		067700CA20703E47009F6426 /* WheelVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelVisualizationView.swift; sourceTree = "<group>"; };
+		067700CD20703F0B009F6426 /* W Fetch data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "W Fetch data.swift"; sourceTree = "<group>"; };
+		067700CE20703F0B009F6426 /* W Parse data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "W Parse data.swift"; sourceTree = "<group>"; };
+		067700D120703F9E009F6426 /* G Fetch data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "G Fetch data.swift"; sourceTree = "<group>"; };
+		067700D220703F9E009F6426 /* G Parse data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "G Parse data.swift"; sourceTree = "<group>"; };
+		067700D520703FE3009F6426 /* Congresspersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congresspersons.swift; sourceTree = "<group>"; };
+		067700D8207051DB009F6426 /* WheelDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelDraw.swift; sourceTree = "<group>"; };
+		0679BA912067F95E005BB22C /* CirclesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesBar.swift; sourceTree = "<group>"; };
+		068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipVisualizationView.swift; sourceTree = "<group>"; };
+		068F86D620715B190064D1DE /* P Fetch data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P Fetch data.swift"; sourceTree = "<group>"; };
+		068F86D820715B1E0064D1DE /* P parse data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P parse data.swift"; sourceTree = "<group>"; };
+		068F86DA20715DBB0064D1DE /* P table delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P table delegate.swift"; sourceTree = "<group>"; };
+		068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipCell.swift; sourceTree = "<group>"; };
+		068F86DE207160230064D1DE /* P table datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P table datasource.swift"; sourceTree = "<group>"; };
+		068F86E0207164F50064D1DE /* PartisanshipSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartisanshipSlider.swift; sourceTree = "<group>"; };
+		06BA35BA206C78A400CCEE6C /* GeoVisDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoVisDelegate.swift; sourceTree = "<group>"; };
+		06BA35BC206C799B00CCEE6C /* GeoVisDrawLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoVisDrawLines.swift; sourceTree = "<group>"; };
+		06BA35BE206C8C8900CCEE6C /* ImageAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnnotation.swift; sourceTree = "<group>"; };
+		06C584262069AC00001EBBCB /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		06C99E53206836D800B9757A /* CirclesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTable.swift; sourceTree = "<group>"; };
+		06C99E5620685BE900B9757A /* VisualizationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizationMenu.swift; sourceTree = "<group>"; };
+		06D6A4F720667DCB007BB265 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		651941A3B47AB9F572AFEA1C /* Pods-DealmakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealmakerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealmakerUITests/Pods-DealmakerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6B978856EAE4D8652E1F0747 /* Pods_DealmakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealmakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6E75E5547192F995694A90 /* Pods-Dealmaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealmaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +170,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0611F81220685E4E00C0D19D /* Circles bar */ = {
+			isa = PBXGroup;
+			children = (
+				0679BA912067F95E005BB22C /* CirclesBar.swift */,
+				0611F81520685E7B00C0D19D /* CirclesBarDelegate.swift */,
+				0611F81320685E5F00C0D19D /* CircleView.swift */,
+			);
+			path = "Circles bar";
+			sourceTree = "<group>";
+		};
+		0611F81720685ED200C0D19D /* Circles table */ = {
+			isa = PBXGroup;
+			children = (
+				06C99E53206836D800B9757A /* CirclesTable.swift */,
+				0611F8212068604700C0D19D /* CirclesTableItem.swift */,
+				0611F81F20685FF300C0D19D /* CirclesTableDataSource.swift */,
+				0611F81D20685FE100C0D19D /* CirclesTableCell.swift */,
+			);
+			path = "Circles table";
+			sourceTree = "<group>";
+		};
+		0611F81C20685F7000C0D19D /* Visualization views */ = {
+			isa = PBXGroup;
+			children = (
+				068F86D220715AF20064D1DE /* Partisanship */,
+				067700C920703DFA009F6426 /* Wheel */,
+				0629D643206AC5CA00F22346 /* Geographic */,
+			);
+			path = "Visualization views";
+			sourceTree = "<group>";
+		};
+		0611F825206872AF00C0D19D /* Static data */ = {
+			isa = PBXGroup;
+			children = (
+				0611F826206872BF00C0D19D /* states.txt */,
+				0611F8282068743200C0D19D /* topics.txt */,
+			);
+			path = "Static data";
+			sourceTree = "<group>";
+		};
+		0629D643206AC5CA00F22346 /* Geographic */ = {
+			isa = PBXGroup;
+			children = (
+				062CCC0820673DCB00DE8A18 /* GeographicVisualizationView.swift */,
+				06BA35BA206C78A400CCEE6C /* GeoVisDelegate.swift */,
+				06658FEA206C104C000E0285 /* SliderDrawer.swift */,
+				06982670206D4E52008CBA96 /* Draw */,
+				0698266F206D4E38008CBA96 /* Data */,
+			);
+			path = Geographic;
+			sourceTree = "<group>";
+		};
+		062CCC0720673DC000DE8A18 /* Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				06C99E5520683F6500B9757A /* Controller */,
+				0611F81C20685F7000C0D19D /* Visualization views */,
+				0611F825206872AF00C0D19D /* Static data */,
+				067700D520703FE3009F6426 /* Congresspersons.swift */,
+			);
+			path = Visualization;
+			sourceTree = "<group>";
+		};
 		065DD429206676F200A8D8B6 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +260,7 @@
 			children = (
 				065DD435206676F200A8D8B6 /* AppDelegate.swift */,
 				065DD437206676F200A8D8B6 /* MainViewController.swift */,
+				062CCC0720673DC000DE8A18 /* Visualization */,
 				065DD487206677E400A8D8B6 /* UI components */,
 				065DD439206676F200A8D8B6 /* Main.storyboard */,
 				065DD43C206676F200A8D8B6 /* Assets.xcassets */,
@@ -168,8 +304,100 @@
 				065DD485206677DC00A8D8B6 /* LogoAnim.swift */,
 				065DD4632066774700A8D8B6 /* Colors.swift */,
 				065DD4652066775D00A8D8B6 /* UI components.swift */,
+				062CCC1320674DDD00DE8A18 /* ButtonHelper.swift */,
+				06C584262069AC00001EBBCB /* AsyncImageView.swift */,
 			);
 			path = "UI components";
+			sourceTree = "<group>";
+		};
+		067700C920703DFA009F6426 /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				067700CA20703E47009F6426 /* WheelVisualizationView.swift */,
+				062C19D5207065490093EB1D /* Touch delegate.swift */,
+				067700D8207051DB009F6426 /* WheelDraw.swift */,
+				067700CC20703F0B009F6426 /* Data */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+		067700CC20703F0B009F6426 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				067700CD20703F0B009F6426 /* W Fetch data.swift */,
+				067700CE20703F0B009F6426 /* W Parse data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		068F86D220715AF20064D1DE /* Partisanship */ = {
+			isa = PBXGroup;
+			children = (
+				068F86D320715B030064D1DE /* PartisanshipVisualizationView.swift */,
+				068F86DA20715DBB0064D1DE /* P table delegate.swift */,
+				068F86DE207160230064D1DE /* P table datasource.swift */,
+				068F86DC20715E9D0064D1DE /* PartisanshipCell.swift */,
+				068F86E0207164F50064D1DE /* PartisanshipSlider.swift */,
+				068F86D520715B100064D1DE /* Data */,
+			);
+			path = Partisanship;
+			sourceTree = "<group>";
+		};
+		068F86D520715B100064D1DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				068F86D620715B190064D1DE /* P Fetch data.swift */,
+				068F86D820715B1E0064D1DE /* P parse data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0698266D206D4DCE008CBA96 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				06C99E5620685BE900B9757A /* VisualizationMenu.swift */,
+				0611F82A206884D200C0D19D /* Setup selected.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		0698266F206D4E38008CBA96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				067700D120703F9E009F6426 /* G Fetch data.swift */,
+				067700D220703F9E009F6426 /* G Parse data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		06982670206D4E52008CBA96 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				06BA35BC206C799B00CCEE6C /* GeoVisDrawLines.swift */,
+				06BA35BE206C8C8900CCEE6C /* ImageAnnotation.swift */,
+				0629D645206AC5E000F22346 /* Lines overlay.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		06C99E52206836C900B9757A /* Circles picker */ = {
+			isa = PBXGroup;
+			children = (
+				0611F81220685E4E00C0D19D /* Circles bar */,
+				0611F81720685ED200C0D19D /* Circles table */,
+			);
+			path = "Circles picker";
+			sourceTree = "<group>";
+		};
+		06C99E5520683F6500B9757A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				062CCC0520673DAB00DE8A18 /* VisualizationViewController.swift */,
+				0611F81820685EFC00C0D19D /* Visualization helper.swift */,
+				0698266D206D4DCE008CBA96 /* Menu */,
+				06C99E52206836C900B9757A /* Circles picker */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		3F292D922DA52F6454AC95BD /* Frameworks */ = {
@@ -311,7 +539,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0611F827206872BF00C0D19D /* states.txt in Resources */,
 				065DD440206676F200A8D8B6 /* LaunchScreen.storyboard in Resources */,
+				0611F8292068743200C0D19D /* topics.txt in Resources */,
 				065DD43D206676F200A8D8B6 /* Assets.xcassets in Resources */,
 				065DD43B206676F200A8D8B6 /* Main.storyboard in Resources */,
 				065DD48B20667B4200A8D8B6 /* Kiona-Regular.ttf in Resources */,
@@ -390,11 +620,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Dealmaker/Pods-Dealmaker-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -489,11 +725,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067700D420703F9E009F6426 /* G Parse data.swift in Sources */,
+				067700D9207051DB009F6426 /* WheelDraw.swift in Sources */,
+				062CCC1420674DDD00DE8A18 /* ButtonHelper.swift in Sources */,
+				068F86DB20715DBB0064D1DE /* P table delegate.swift in Sources */,
+				06BA35BD206C799B00CCEE6C /* GeoVisDrawLines.swift in Sources */,
+				0611F82B206884D200C0D19D /* Setup selected.swift in Sources */,
+				06BA35BB206C78A400CCEE6C /* GeoVisDelegate.swift in Sources */,
+				067700D320703F9E009F6426 /* G Fetch data.swift in Sources */,
+				06C99E54206836D800B9757A /* CirclesTable.swift in Sources */,
+				068F86E1207164F50064D1DE /* PartisanshipSlider.swift in Sources */,
+				067700D020703F0B009F6426 /* W Parse data.swift in Sources */,
 				065DD486206677DC00A8D8B6 /* LogoAnim.swift in Sources */,
 				065DD438206676F200A8D8B6 /* MainViewController.swift in Sources */,
+				0611F8222068604700C0D19D /* CirclesTableItem.swift in Sources */,
 				065DD4642066774700A8D8B6 /* Colors.swift in Sources */,
+				062C19D6207065490093EB1D /* Touch delegate.swift in Sources */,
+				067700D620703FE3009F6426 /* Congresspersons.swift in Sources */,
+				0611F81420685E5F00C0D19D /* CircleView.swift in Sources */,
+				0679BA922067F95E005BB22C /* CirclesBar.swift in Sources */,
+				06C584272069AC00001EBBCB /* AsyncImageView.swift in Sources */,
+				0611F81620685E7B00C0D19D /* CirclesBarDelegate.swift in Sources */,
+				06BA35BF206C8C8900CCEE6C /* ImageAnnotation.swift in Sources */,
+				068F86D920715B1E0064D1DE /* P parse data.swift in Sources */,
+				062CCC0920673DCB00DE8A18 /* GeographicVisualizationView.swift in Sources */,
+				068F86D420715B030064D1DE /* PartisanshipVisualizationView.swift in Sources */,
+				0611F82020685FF300C0D19D /* CirclesTableDataSource.swift in Sources */,
+				0611F81920685EFC00C0D19D /* Visualization helper.swift in Sources */,
+				068F86DF207160230064D1DE /* P table datasource.swift in Sources */,
+				062CCC0620673DAB00DE8A18 /* VisualizationViewController.swift in Sources */,
+				0629D646206AC5E000F22346 /* Lines overlay.swift in Sources */,
 				065DD4662066775D00A8D8B6 /* UI components.swift in Sources */,
 				065DD436206676F200A8D8B6 /* AppDelegate.swift in Sources */,
+				067700CF20703F0B009F6426 /* W Fetch data.swift in Sources */,
+				068F86D720715B190064D1DE /* P Fetch data.swift in Sources */,
+				0611F81E20685FE100C0D19D /* CirclesTableCell.swift in Sources */,
+				06C99E5720685BE900B9757A /* VisualizationMenu.swift in Sources */,
+				068F86DD20715E9D0064D1DE /* PartisanshipCell.swift in Sources */,
+				067700CB20703E47009F6426 /* WheelVisualizationView.swift in Sources */,
+				06658FEB206C104C000E0285 /* SliderDrawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
