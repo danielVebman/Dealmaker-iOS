@@ -44,6 +44,9 @@ extension VisualizationViewController: CirclesMenuBarDelegate, UITableViewDelega
         view.addSubview(table)
         
         view.backgroundColor = ColorPalette.primary
+        geoVisualizationView?.alpha = 0
+        wheelVisualizationView?.alpha = 0
+        partVisualizationView?.alpha = 0
     }
     
     func circlesMenuBar(_ bar: CirclesMenuBar, deselected circle: CircleView, at index: Int) {
@@ -52,6 +55,10 @@ extension VisualizationViewController: CirclesMenuBarDelegate, UITableViewDelega
     }
     
     func circlesMenuBar(_ closedBar: CirclesMenuBar) {
+        geoVisualizationView?.alpha = 1
+        wheelVisualizationView?.alpha = 1
+        partVisualizationView?.alpha = 1
+        
         geoVisualizationView?.updatedFilters(selectedItems)
         wheelVisualizationView?.updatedFilters(selectedItems)
         partVisualizationView?.updatedFilters(selectedItems)
