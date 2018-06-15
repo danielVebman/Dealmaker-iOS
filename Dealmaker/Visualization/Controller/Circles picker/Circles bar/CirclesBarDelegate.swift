@@ -15,13 +15,7 @@ extension CirclesMenuBar {
         guard let circle = gesture.view as? CircleView else { return }
         
         if circle.title == "Back" {
-            let appearance = SCLAlertView.SCLAppearance(showCloseButton: false)
-            let alert = SCLAlertView(appearance: appearance)
-            alert.addButton("Nevermind", action: { })
-            alert.addButton("Exit", action: {
-                self.delegate?.circlesMenuBarRequestsBack(self)
-            })
-            alert.showWarning("Exit visualization", subTitle: "Are you sure you want to leave this visualization?")
+            delegate?.circlesMenuBarRequestsBack(self)
             return
         }
         

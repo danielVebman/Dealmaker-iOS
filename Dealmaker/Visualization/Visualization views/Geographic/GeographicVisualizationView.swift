@@ -22,7 +22,7 @@ class GeographicVisualizationView: MKMapView, WeightDecatileSliderDrawerDelegate
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        weightDecatileSliderDrawer = WeightDecatileSliderDrawer(frame: CGRect(x: 10, y: 80, width: 300, height: 50))
+        weightDecatileSliderDrawer = WeightDecatileSliderDrawer(frame: CGRect(x: 10, y: 20 + 80, width: 300, height: 50))
         weightDecatileSliderDrawer.delegate = self
         addSubview(weightDecatileSliderDrawer)
         

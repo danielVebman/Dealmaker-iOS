@@ -12,6 +12,7 @@ import UIKit
 class WheelVisualizationView: UIScrollView, UIScrollViewDelegate {
     var selectedItems = [String: [CirclesTableItem]]()
     var container: UIView?
+    var searchTextField: UITextField?
     var selectedCircle: Circle?
     var connectionsImageView: UIImageView?
     var contentDim: CGFloat?

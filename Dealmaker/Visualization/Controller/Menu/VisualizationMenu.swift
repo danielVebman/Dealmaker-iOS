@@ -29,10 +29,10 @@ extension VisualizationViewController: CirclesMenuBarDelegate, UITableViewDelega
         cell.frame.origin.x = tableView.frame.width / 4
         cell.alpha = 0
         
-        UIView.animate(withDuration: 0.8) {
+        UIView.animate(withDuration: 0.8, delay: 0, options: .allowUserInteraction, animations: {
             cell.frame.origin.x = 0
             cell.alpha = 1
-        }
+        }, completion: nil)
     }
     
     func circlesMenuBar(_ bar: CirclesMenuBar, selected circle: CircleView, at index: Int) {

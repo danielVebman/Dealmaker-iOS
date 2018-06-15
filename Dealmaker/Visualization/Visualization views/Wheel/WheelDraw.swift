@@ -28,6 +28,18 @@ extension WheelVisualizationView {
         container?.backgroundColor = UIColor.clear
         addSubview(container!)
         
+        searchTextField = UITextField(frame: CGRect(x: 0, y: 0, width: contentSize.width * 2 / 3, height: contentSize.width / 10))
+        searchTextField!.font = UIFont.systemFont(ofSize: searchTextField!.frame.height * 4 / 5)
+        searchTextField!.placeholder = "Search"
+        searchTextField!.autocapitalizationType = .words
+        searchTextField!.autocorrectionType = .no
+        searchTextField!.center = CGPoint(x: contentSize.width / 2, y: contentSize.height / 2)
+        searchTextField!.textAlignment = .center
+        searchTextField!.returnKeyType = .done
+        searchTextField!.delegate = self
+        searchTextField!.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        container?.addSubview(searchTextField!)
+        
         connectionsImageView?.removeFromSuperview()
         connectionsImageView = UIImageView(frame: CGRect(origin: CGPoint.zero, size: CGSize(width: contentDim!, height: contentDim!)))
         connectionsImageView!.contentMode = .scaleToFill

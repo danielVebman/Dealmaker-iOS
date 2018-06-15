@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Toast_Swift
 
-extension WheelVisualizationView: UIGestureRecognizerDelegate {
+extension WheelVisualizationView: UIGestureRecognizerDelegate, UITextFieldDelegate {
     @objc func pressed(_ gesture: UILongPressGestureRecognizer) {
         if gesture.state == .began {
             guard let circle = gesture.view as? Circle,
@@ -54,7 +54,7 @@ extension WheelVisualizationView: UIGestureRecognizerDelegate {
         UIGraphicsBeginImageContext(CGSize(width: contentDim!, height: contentDim!))
         let context = UIGraphicsGetCurrentContext()
         
-        for otherCircle in container.subviews {
+        for otherCircle in container.subviews where otherCircle is Circle {
             if otherCircle.tag == 404 { continue }
             guard let id = (otherCircle as! Circle).id,
                 let weight = person.relationships[id]
@@ -79,6 +79,7 @@ extension WheelVisualizationView: UIGestureRecognizerDelegate {
     func returnCircle(_ circle: Circle) {
         selectedCircle = nil
         UIView.animate(withDuration: 0.25) {
+            self.searchTextField?.alpha = 1
             circle.center = circle.originalCenter
             circle.transform = CGAffineTransform.identity
         }
@@ -87,9 +88,36 @@ extension WheelVisualizationView: UIGestureRecognizerDelegate {
     func centerCircle(_ circle: Circle) {
         selectedCircle = circle
         UIView.animate(withDuration: 0.25) {
+            self.searchTextField?.alpha = 0
             let scale = self.contentDim! / 4 / circle.frame.width
             circle.transform = CGAffineTransform(scaleX: scale, y: scale)
             circle.center = CGPoint(x: self.contentDim! / 2, y: self.contentDim! / 2)
         }
+    }
+    
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        guard let subviews = container?.subviews else { return }
+        subviews.filter { $0.tag == 717 }.forEach { $0.removeFromSuperview() }
+        let text = textField.text ?? ""
+        for view in subviews {
+            if let circle = view as? Circle,
+                let id = circle.id,
+                let person = people?[id] {
+                if person.name.contains(text) || person.stateAbbrev.contains(text) {
+                    let highlight = UIView(frame: circle.frame.insetBy(dx: -circle.frame.width, dy: -circle.frame.height))
+                    highlight.layer.cornerRadius = 0.5 * highlight.frame.width
+                    highlight.clipsToBounds = true
+                    highlight.isUserInteractionEnabled = false
+                    highlight.backgroundColor = UIColor.yellow.withAlphaComponent(0.7)
+                    highlight.tag = 717
+                    container?.addSubview(highlight)
+                }
+            }
+        }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
